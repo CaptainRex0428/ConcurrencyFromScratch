@@ -47,3 +47,4 @@ settings/*
 
 # exclude
 !Scripts/*/*.*
+bin
