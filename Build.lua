@@ -17,3 +17,7 @@ workspace "CommonCPPTemplate"
 
 group ""
 	include "Template01.lua"
+	include "Template02.lua"
+	include "Template03.lua"
+	include "Template04.lua"
+	include "Template05.lua"
