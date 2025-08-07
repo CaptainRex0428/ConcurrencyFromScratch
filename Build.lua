@@ -16,4 +16,4 @@ workspace "CommonCPPTemplate"
 	
 
 group ""
-	include "EntryProject.lua"
+	include "Template01.lua"

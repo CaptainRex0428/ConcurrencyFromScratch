@@ -9,7 +9,7 @@ void EntryA()
 int main(int argc, char * argv[])
 {
 	std::thread EntryAThread(EntryA);
-	EntryAThread.detach();
+	EntryAThread.join();
 
 	return 0;
 }

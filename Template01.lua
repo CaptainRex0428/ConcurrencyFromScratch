@@ -1,10 +1,11 @@
-project "EntryProject"
+project "Template01"
     kind "ConsoleApp"
     language "C++"
     cppdialect "C++20"
 
     files
     {
+        "entry/template01.cpp",
         "src/**.cpp",
         "src/**.h",
         "include/**.h"
