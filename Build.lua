@@ -1,7 +1,7 @@
 include "Directory.lua"
 include "Dependencies.lua"
 
-workspace "CommonCPPTemplate"
+workspace "ConcurrencyFromScratch"
 	architecture "x64"
 	startproject "EntryProject"
 	configurations
