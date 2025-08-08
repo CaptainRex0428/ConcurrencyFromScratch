@@ -1,4 +1,4 @@
-// ÀûÓÃstd::moveµÄÏß³Ì±£»¤
+ï»¿// åˆ©ç”¨std::moveçš„çº¿ç¨‹ä¿æŠ¤
 
 #include <iostream>
 #include <thread>

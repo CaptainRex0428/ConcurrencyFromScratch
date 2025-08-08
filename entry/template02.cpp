@@ -1,4 +1,4 @@
-// �̱߳������Զ��ȴ����ͷ�
+﻿// 线程保护，自动等待和释放
 
 #include <iostream>
 #include <thread>

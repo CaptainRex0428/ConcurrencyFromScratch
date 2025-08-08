@@ -1,9 +1,9 @@
-#pragma once
+﻿#pragma once
 
 #include <string>
 #include <chrono>
 
-#define EVENT_TIMER_TAG(tag) Timer t##__Line__(tag)
+#define EVENT_TIMER_TAG(tag) Timer t##__Line__(tag);
 
 class Timer
 {

@@ -1,4 +1,4 @@
-// ÅúÁ¿Éú³ÉÏß³Ì
+ï»¿// æ‰¹é‡ç”Ÿæˆçº¿ç¨‹
 
 #include <iostream>
 #include <thread>
@@ -20,7 +20,7 @@ void do_work(unsigned int count)
 	}
 }
 
-int main(int argc, char * argv[])
+int main(int argc, char* argv[])
 {
 
 	std::vector<std::thread> threads;
@@ -40,7 +40,7 @@ int main(int argc, char * argv[])
 
 		std::cout << std::endl;
 	}
-	
+
 	int countTime = PROGRESS_COUNT * WORK_COUNT;
 
 	{
@@ -48,12 +48,12 @@ int main(int argc, char * argv[])
 
 		for (unsigned int i = 0; i < countTime; ++i)
 		{
-			std::cout << (i%2);
+			std::cout << (i % 2);
 		}
 
 		std::cout << std::endl;
 	}
-	
+
 
 	return 0;
 
