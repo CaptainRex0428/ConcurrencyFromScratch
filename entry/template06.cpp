@@ -1,4 +1,6 @@
-﻿#include <iostream>
+﻿// std::accumulate改写多线程版本
+
+#include <iostream>
 #include <thread>
 #include <iterator>
 #include <vector>
